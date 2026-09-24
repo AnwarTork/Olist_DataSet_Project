@@ -1,0 +1,10 @@
+-r requirements.txt
+
+# jupyter==1.0.0
+# ipykernel== 6.31.0
+# ipython== 8.18.1
+
+pytest==8.4.2
+pytest
+pytest-cov
+ruff
