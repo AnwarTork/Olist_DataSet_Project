@@ -1,0 +1,128 @@
+{
+  "expectations": [
+    {
+      "id": "ca609843-59b8-4418-8a23-393a0f8457c1",
+      "kwargs": {
+        "column": "order_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "5fdec35e-dac2-4962-87b1-33ac582323c3",
+      "kwargs": {
+        "column": "customer_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "56dea6a6-d9d3-4129-94ed-420e0c06f6fb",
+      "kwargs": {
+        "column": "is_late"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "0eddc05d-6535-4b55-a1bc-a9fc21e3a471",
+      "kwargs": {
+        "column": "order_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "6add4c17-8a5b-4056-bc62-cc8a193ad619",
+      "kwargs": {
+        "column": "is_late"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "41e57a6f-e0cb-439e-907b-408992c050bc",
+      "kwargs": {
+        "column": "is_late",
+        "value_set": [
+          0,
+          1
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "18d369ce-2e2e-484b-85f3-cd12464a33ee",
+      "kwargs": {
+        "column": "total_items",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "949734bc-e9a0-44d0-ad95-fac035d9f212",
+      "kwargs": {
+        "column": "total_price",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "3820ad90-66ca-42f4-8bcf-5016c4b61270",
+      "kwargs": {
+        "column": "total_freight_value",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "8079a788-2bd7-4d6e-913d-670cefcf5ffc",
+      "kwargs": {
+        "column": "total_payment_value",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "c8cc7bc7-6932-4e04-aa6c-dd2f5afa995c",
+      "kwargs": {
+        "column": "unique_products",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "ca90cc42-88de-4295-a77f-06027230b545",
+      "kwargs": {
+        "column": "unique_sellers",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    }
+  ],
+  "id": "4838b3db-520e-466e-a48a-9053cca0603e",
+  "meta": {
+    "great_expectations_version": "1.23.1"
+  },
+  "name": "olist_ml_table_suite",
+  "notes": null
+}
