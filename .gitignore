@@ -1,0 +1,32 @@
+.venv/
+.env
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+.ipynb_checkpoints/
+
+logs/
+*.log
+
+.DS_Store
+Thumbs.db
+.vscode/
+
+# data/raw/
+# data/processed/
+# data/splits/
+
+models/features/*.joblib
+models/features/*.pkl
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
+
+.dvc/cache/
