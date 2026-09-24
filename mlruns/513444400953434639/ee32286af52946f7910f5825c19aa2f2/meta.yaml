@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/513444400953434639/ee32286af52946f7910f5825c19aa2f2/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '513444400953434639'
+lifecycle_stage: active
+run_id: ee32286af52946f7910f5825c19aa2f2
+run_name: xgboost-baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1790247793275
+status: 1
+tags: []
+user_id: Anwar Altorkmani
